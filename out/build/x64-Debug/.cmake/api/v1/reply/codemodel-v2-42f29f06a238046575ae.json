@@ -19,15 +19,15 @@
 					"source" : "."
 				},
 				{
-					"build" : "CI_ver_0.1",
-					"jsonFile" : "directory-CI_ver_0.1-Debug-e9dc5f83193300ad2690.json",
+					"build" : "CI_ver_0.2",
+					"jsonFile" : "directory-CI_ver_0.2-Debug-11bfb16f091dd4289bbf.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.22.0"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 0,
-					"source" : "CI_ver_0.1",
+					"source" : "CI_ver_0.2",
 					"targetIndexes" : 
 					[
 						0
@@ -54,8 +54,8 @@
 			[
 				{
 					"directoryIndex" : 1,
-					"id" : "game::@98027499d8585ebebcbf",
-					"jsonFile" : "target-game-Debug-b7a3abd5e62140bd1265.json",
+					"id" : "game::@8d51d91fc4c9e46b814b",
+					"jsonFile" : "target-game-Debug-bd99e351e8ba191f37d4.json",
 					"name" : "game",
 					"projectIndex" : 0
 				}

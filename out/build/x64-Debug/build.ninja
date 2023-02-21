@@ -75,14 +75,14 @@ build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 #############################################
 # Order-only phony target for game
 
-build cmake_object_order_depends_target_game: phony || CI_ver_0.1\CMakeFiles\game.dir
+build cmake_object_order_depends_target_game: phony || CI_ver_0.2\CMakeFiles\game.dir
 
-build CI_ver_0.1\CMakeFiles\game.dir\main.cpp.obj: CXX_COMPILER__game_Debug B$:\Git_Repositories\Game_CYBER_INFILTRATION\CI_ver_0.1\main.cpp || cmake_object_order_depends_target_game
+build CI_ver_0.2\CMakeFiles\game.dir\main.cpp.obj: CXX_COMPILER__game_Debug B$:\Git_Repositories\Game_CYBER_INFILTRATION\CI_ver_0.2\main.cpp || cmake_object_order_depends_target_game
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
-  OBJECT_DIR = CI_ver_0.1\CMakeFiles\game.dir
-  OBJECT_FILE_DIR = CI_ver_0.1\CMakeFiles\game.dir
-  TARGET_COMPILE_PDB = CI_ver_0.1\CMakeFiles\game.dir\
-  TARGET_PDB = CI_ver_0.1\game.pdb
+  OBJECT_DIR = CI_ver_0.2\CMakeFiles\game.dir
+  OBJECT_FILE_DIR = CI_ver_0.2\CMakeFiles\game.dir
+  TARGET_COMPILE_PDB = CI_ver_0.2\CMakeFiles\game.dir\
+  TARGET_PDB = CI_ver_0.2\game.pdb
 
 
 # =============================================================================
@@ -90,49 +90,49 @@ build CI_ver_0.1\CMakeFiles\game.dir\main.cpp.obj: CXX_COMPILER__game_Debug B$:\
 
 
 #############################################
-# Link the executable CI_ver_0.1\game.exe
+# Link the executable CI_ver_0.2\game.exe
 
-build CI_ver_0.1\game.exe: CXX_EXECUTABLE_LINKER__game_Debug CI_ver_0.1\CMakeFiles\game.dir\main.cpp.obj
+build CI_ver_0.2\game.exe: CXX_EXECUTABLE_LINKER__game_Debug CI_ver_0.2\CMakeFiles\game.dir\main.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = CI_ver_0.1\CMakeFiles\game.dir
+  OBJECT_DIR = CI_ver_0.2\CMakeFiles\game.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CI_ver_0.1\CMakeFiles\game.dir\
-  TARGET_FILE = CI_ver_0.1\game.exe
-  TARGET_IMPLIB = CI_ver_0.1\game.lib
-  TARGET_PDB = CI_ver_0.1\game.pdb
+  TARGET_COMPILE_PDB = CI_ver_0.2\CMakeFiles\game.dir\
+  TARGET_FILE = CI_ver_0.2\game.exe
+  TARGET_IMPLIB = CI_ver_0.2\game.lib
+  TARGET_PDB = CI_ver_0.2\game.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
-build CI_ver_0.1\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D B:\Git_Repositories\Game_CYBER_INFILTRATION\out\build\x64-Debug\CI_ver_0.1 && "B:\Microsoft VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+build CI_ver_0.2\CMakeFiles\edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D B:\Git_Repositories\Game_CYBER_INFILTRATION\out\build\x64-Debug\CI_ver_0.2 && "B:\Microsoft VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build CI_ver_0.1\edit_cache: phony CI_ver_0.1\CMakeFiles\edit_cache.util
+build CI_ver_0.2\edit_cache: phony CI_ver_0.2\CMakeFiles\edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build CI_ver_0.1\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D B:\Git_Repositories\Game_CYBER_INFILTRATION\out\build\x64-Debug\CI_ver_0.1 && "B:\Microsoft VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SB:\Git_Repositories\Game_CYBER_INFILTRATION -BB:\Git_Repositories\Game_CYBER_INFILTRATION\out\build\x64-Debug"
+build CI_ver_0.2\CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D B:\Git_Repositories\Game_CYBER_INFILTRATION\out\build\x64-Debug\CI_ver_0.2 && "B:\Microsoft VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SB:\Git_Repositories\Game_CYBER_INFILTRATION -BB:\Git_Repositories\Game_CYBER_INFILTRATION\out\build\x64-Debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build CI_ver_0.1\rebuild_cache: phony CI_ver_0.1\CMakeFiles\rebuild_cache.util
+build CI_ver_0.2\rebuild_cache: phony CI_ver_0.2\CMakeFiles\rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
 
-build game: phony CI_ver_0.1\game.exe
+build game: phony CI_ver_0.2\game.exe
 
-build game.exe: phony CI_ver_0.1\game.exe
+build game.exe: phony CI_ver_0.2\game.exe
 
 # =============================================================================
 # Folder targets.
@@ -142,14 +142,14 @@ build game.exe: phony CI_ver_0.1\game.exe
 #############################################
 # Folder: B:/Git_Repositories/Game_CYBER_INFILTRATION/out/build/x64-Debug
 
-build all: phony CI_ver_0.1\all
+build all: phony CI_ver_0.2\all
 
 # =============================================================================
 
 #############################################
-# Folder: B:/Git_Repositories/Game_CYBER_INFILTRATION/out/build/x64-Debug/CI_ver_0.1
+# Folder: B:/Git_Repositories/Game_CYBER_INFILTRATION/out/build/x64-Debug/CI_ver_0.2
 
-build CI_ver_0.1\all: phony CI_ver_0.1\game.exe
+build CI_ver_0.2\all: phony CI_ver_0.2\game.exe
 
 # =============================================================================
 # Built-in targets
@@ -158,14 +158,14 @@ build CI_ver_0.1\all: phony CI_ver_0.1\game.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | B$:\Git_Repositories\Game_CYBER_INFILTRATION\CI_ver_0.1\CMakeLists.txt B$:\Git_Repositories\Game_CYBER_INFILTRATION\CMakeLists.txt B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\3.24.202208181-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.24.202208181-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.24.202208181-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.24.202208181-MSVC_2\CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | B$:\Git_Repositories\Game_CYBER_INFILTRATION\CI_ver_0.2\CMakeLists.txt B$:\Git_Repositories\Game_CYBER_INFILTRATION\CMakeLists.txt B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\3.24.202208181-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.24.202208181-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.24.202208181-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.24.202208181-MSVC_2\CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build B$:\Git_Repositories\Game_CYBER_INFILTRATION\CI_ver_0.1\CMakeLists.txt B$:\Git_Repositories\Game_CYBER_INFILTRATION\CMakeLists.txt B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\3.24.202208181-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.24.202208181-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.24.202208181-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.24.202208181-MSVC_2\CMakeSystem.cmake: phony
+build B$:\Git_Repositories\Game_CYBER_INFILTRATION\CI_ver_0.2\CMakeLists.txt B$:\Git_Repositories\Game_CYBER_INFILTRATION\CMakeLists.txt B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake B$:\Microsoft$ VisualStudio\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake CMakeCache.txt CMakeFiles\3.24.202208181-MSVC_2\CMakeCCompiler.cmake CMakeFiles\3.24.202208181-MSVC_2\CMakeCXXCompiler.cmake CMakeFiles\3.24.202208181-MSVC_2\CMakeRCCompiler.cmake CMakeFiles\3.24.202208181-MSVC_2\CMakeSystem.cmake: phony
 
 
 #############################################

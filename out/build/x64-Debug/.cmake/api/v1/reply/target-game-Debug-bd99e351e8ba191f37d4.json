@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "CI_ver_0.1/game.exe"
+			"path" : "CI_ver_0.2/game.exe"
 		},
 		{
-			"path" : "CI_ver_0.1/game.pdb"
+			"path" : "CI_ver_0.2/game.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -17,7 +17,7 @@
 		],
 		"files" : 
 		[
-			"CI_ver_0.1/CMakeLists.txt"
+			"CI_ver_0.2/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -48,7 +48,7 @@
 			]
 		}
 	],
-	"id" : "game::@98027499d8585ebebcbf",
+	"id" : "game::@8d51d91fc4c9e46b814b",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -72,8 +72,8 @@
 	"nameOnDisk" : "game.exe",
 	"paths" : 
 	{
-		"build" : "CI_ver_0.1",
-		"source" : "CI_ver_0.1"
+		"build" : "CI_ver_0.2",
+		"source" : "CI_ver_0.2"
 	},
 	"sourceGroups" : 
 	[
@@ -97,12 +97,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "CI_ver_0.1/main.cpp",
+			"path" : "CI_ver_0.2/main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "CI_ver_0.1/main.h",
+			"path" : "CI_ver_0.2/main.h",
 			"sourceGroupIndex" : 1
 		}
 	],

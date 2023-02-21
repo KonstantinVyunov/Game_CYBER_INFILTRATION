@@ -136,7 +136,7 @@
 			"path" : "B:/Microsoft VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake"
 		},
 		{
-			"path" : "CI_ver_0.1/CMakeLists.txt"
+			"path" : "CI_ver_0.2/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

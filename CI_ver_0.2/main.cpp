@@ -754,7 +754,7 @@ std::string game_loop(std::string& user_inpout, Map& map) {
 		if (map.hero.location->north) {
 			if (is_battle_mode == true) {
 				map.hero.HP -= receivedDamage(monsters_in_room);
-				hero_info += "\nБыл получен урон от монстров в " + to_string(receivedDamage(monsters_in_room)) + " HP при уклонении от боя.\n";
+				hero_info += "Был получен урон от монстров в " + to_string(receivedDamage(monsters_in_room)) + " HP при уклонении от боя.\n";
 			}
 			map.hero.location = map.hero.location->north;
 			location_info += (map.hero.location->short_desc + ' ' +
@@ -771,7 +771,7 @@ std::string game_loop(std::string& user_inpout, Map& map) {
 			is_loot_available = lootbox_in_room;
 
 			if (is_loot_available) {
-				location_info += "На полу валяется лутбокс.";
+				location_info += "На полу валяется лутбокс.\n";
 			}
 		}
 		else {
@@ -781,7 +781,7 @@ std::string game_loop(std::string& user_inpout, Map& map) {
 		if (map.hero.location->south) {
 			if (is_battle_mode == true) {
 				map.hero.HP -= receivedDamage(monsters_in_room);
-				hero_info += "\nБыл получен урон от монстров в " + to_string(receivedDamage(monsters_in_room)) + " HP при уклонении от боя.\n";
+				hero_info += "Был получен урон от монстров в " + to_string(receivedDamage(monsters_in_room)) + " HP при уклонении от боя.\n";
 			}
 			map.hero.location = map.hero.location->south;
 			location_info += (map.hero.location->short_desc + ' ' + map.hero.location->long_desc) + '\n';
@@ -807,7 +807,7 @@ std::string game_loop(std::string& user_inpout, Map& map) {
 		if (map.hero.location->east) {
 			if (is_battle_mode == true) {
 				map.hero.HP -= receivedDamage(monsters_in_room);
-				hero_info += "\nБыл получен урон от монстров в " + to_string(receivedDamage(monsters_in_room)) + " HP при уклонении от боя.\n";
+				hero_info += "Был получен урон от монстров в " + to_string(receivedDamage(monsters_in_room)) + " HP при уклонении от боя.\n";
 			}
 			map.hero.location = map.hero.location->east;
 			location_info += (map.hero.location->short_desc + ' ' + map.hero.location->long_desc) + '\n';
@@ -833,7 +833,7 @@ std::string game_loop(std::string& user_inpout, Map& map) {
 		if (map.hero.location->west) {
 			if (is_battle_mode == true) {
 				map.hero.HP -= receivedDamage(monsters_in_room);
-				hero_info += "\nБыл получен урон от монстров в " + to_string(receivedDamage(monsters_in_room)) + " HP при уклонении от боя.\n";
+				hero_info += "Был получен урон от монстров в " + to_string(receivedDamage(monsters_in_room)) + " HP при уклонении от боя.\n";
 			}
 			map.hero.location = map.hero.location->west;
 			location_info += (map.hero.location->short_desc + ' ' + map.hero.location->long_desc) + '\n';
@@ -859,7 +859,7 @@ std::string game_loop(std::string& user_inpout, Map& map) {
 		if (map.hero.location->north_west) {
 			if (is_battle_mode == true) {
 				map.hero.HP -= receivedDamage(monsters_in_room);
-				hero_info += "\nБыл получен урон от монстров в " + to_string(receivedDamage(monsters_in_room)) + " HP при уклонении от боя.\n";
+				hero_info += "Был получен урон от монстров в " + to_string(receivedDamage(monsters_in_room)) + " HP при уклонении от боя.\n";
 			}
 			map.hero.location = map.hero.location->north_west;
 			location_info += (map.hero.location->short_desc + ' ' + map.hero.location->long_desc) + '\n';
@@ -885,7 +885,7 @@ std::string game_loop(std::string& user_inpout, Map& map) {
 		if (map.hero.location->south_east) {
 			if (is_battle_mode == true) {
 				map.hero.HP -= receivedDamage(monsters_in_room);
-				hero_info += "\nБыл получен урон от монстров в " + to_string(receivedDamage(monsters_in_room)) + " HP при уклонении от боя.\n";
+				hero_info += "Был получен урон от монстров в " + to_string(receivedDamage(monsters_in_room)) + " HP при уклонении от боя.\n";
 			}
 			map.hero.location = map.hero.location->south_east;
 			location_info += (map.hero.location->short_desc + ' ' + map.hero.location->long_desc) + '\n';
@@ -911,7 +911,7 @@ std::string game_loop(std::string& user_inpout, Map& map) {
 		if (map.hero.location->up) {
 			if (is_battle_mode == true) {
 				map.hero.HP -= receivedDamage(monsters_in_room);
-				hero_info += "\nБыл получен урон от монстров в " + to_string(receivedDamage(monsters_in_room)) + " HP при уклонении от боя.\n";
+				hero_info += "Был получен урон от монстров в " + to_string(receivedDamage(monsters_in_room)) + " HP при уклонении от боя.\n";
 			}
 			map.hero.location = map.hero.location->up;
 			location_info += (map.hero.location->short_desc + ' ' + map.hero.location->long_desc) + '\n';
@@ -937,7 +937,7 @@ std::string game_loop(std::string& user_inpout, Map& map) {
 		if (map.hero.location->down) {
 			if (is_battle_mode == true) {
 				map.hero.HP -= receivedDamage(monsters_in_room);
-				hero_info += "\nБыл получен урон от монстров в " + to_string(receivedDamage(monsters_in_room)) + " HP при уклонении от боя.\n";
+				hero_info += "Был получен урон от монстров в " + to_string(receivedDamage(monsters_in_room)) + " HP при уклонении от боя.\n";
 			}
 			map.hero.location = map.hero.location->down;
 			location_info += (map.hero.location->short_desc + ' ' + map.hero.location->long_desc) + '\n';
@@ -1097,7 +1097,7 @@ std::string game_loop(std::string& user_inpout, Map& map) {
 				map.hero.microchip += MICROCHIP;
 				hero_info += "Подобран микрочип. Теперь доступно " + to_string(map.hero.microchip) + ".\n";
 			}
-			map.lootboxes->location = nullptr;
+			lootbox_in_room->location = nullptr;
 		}
 		break;
 	case (Commands::heal):

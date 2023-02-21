@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "B:/Git_Repositories/Game_CYBER_INFILTRATION/out/build/x64-Debug/CI_ver_0.2/CMakeFiles/game.dir/embed.manifest"
